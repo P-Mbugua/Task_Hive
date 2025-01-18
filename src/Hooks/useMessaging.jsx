@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Messages() {
+function useMessaging() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Messages() {
   )
 }
 
-export default Messages
+export default useMessaging

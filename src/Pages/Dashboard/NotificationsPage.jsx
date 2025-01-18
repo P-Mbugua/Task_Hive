@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Group() {
+function NotificationsPage() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Group() {
   )
 }
 
-export default Group
+export default NotificationsPage
