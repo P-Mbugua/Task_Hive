@@ -1,13 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // For routing
-import Home from './pages/Home'; // Home page
-import Dashboard from './pages/Dashboard'; // Dashboard page
-import Login from './pages/Login'; // Login page
-import Register from './pages/Register'; // Registration page
-import Group from './pages/Group'; // Group management page
-import Messages from './pages/Messages'; // Messaging page
-import NotFound from './pages/NotFound'; // 404 page
-import './App.css'; // Global styles
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
+
+import './App.css'; 
+
+
+
+import Home from './Pages/Home'
+import Dashboard from './Pages/Dashboard'
+import Login from './Pages/Login'
+import Register from './Pages/Register'
+import Group from './Pages/Group'
+import Messages from './Pages/Messages';
+import NotFound from './Pages/NotFound';
 
 function App() {
   return (
